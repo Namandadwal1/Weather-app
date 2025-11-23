@@ -29,7 +29,7 @@ function App() {
   }, []);
 
   // src/services/weatherApi.js
-  const KEY = import.meta.env.REACT_OPENWEATHER_KEY;
+  const KEY = import.meta.env.VITE_OPENWEATHER_KEY;
   const BASE = "https://api.openweathermap.org/data/2.5/weather";
 
   async function fetchWeatherByCity(city) {
