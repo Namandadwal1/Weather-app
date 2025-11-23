@@ -60,7 +60,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen w-full bg-[url('./Background1.png')] bg-cover bg-center bg-no-repeat overflow-x-hidden">
+    <div className="min-h-screen w-full bg-[url('/Background1.png')] bg-cover bg-center bg-no-repeat overflow-x-hidden">
       {/* NAVBAR */}
       <div className="navbar">
         <div
@@ -176,7 +176,7 @@ function App() {
           {/* WEATHER ICON BOX */}
           <div className="lg:w-[30%] bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 sm:p-10 text-white shadow-lg flex justify-center items-center">
             <img
-              src="./weather.png"
+              src="/weather.png"
               className="w-40 h-40 sm:w-60 sm:h-60"
               alt="icon"
             />
