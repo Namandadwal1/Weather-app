@@ -102,6 +102,9 @@ function App() {
 
           {/* My Location Button */}
           <button
+          onClick={() => {
+                fetchWeatherByCity(city);
+              }}
             className="
           flex items-center gap-2 
           bg-white/20 backdrop-blur-xl 
